@@ -22,7 +22,7 @@ class Uxui extends React.Component {
       <div className="services-details-desc">
         <h3>UX & UI Design</h3>
         <p>
-        Seamless user experiences and visually stunning interfaces with our UX and UI Design Service. At Mastery Marketing Agency, we specialize in creating intuitive and engaging digital experiences that captivate audiences and drive results. From wireframing and prototyping to pixel-perfect design execution, our expert team ensures every interaction with your brand is memorable and impactful. Let us transform your digital presence into a user-centric masterpiece that sets you apart from the competition. Elevate your brand with our UX and UI Design Service.
+        Seamless user experiences and visually stunning interfaces with our UX and UI Design Service. At Marketing Mastery Agency, we specialize in creating intuitive and engaging digital experiences that captivate audiences and drive results. From wireframing and prototyping to pixel-perfect design execution, our expert team ensures every interaction with your brand is memorable and impactful. Let us transform your digital presence into a user-centric masterpiece that sets you apart from the competition. Elevate your brand with our UX and UI Design Service.
         </p>
 
         <OwlCarousel
@@ -71,7 +71,7 @@ class Uxui extends React.Component {
         <blockquote className="blockquote">
           <p>
           
-          "Choosing Mastery Marketing Agency for our UX and UI design needs was one of the best decisions we've made for our brand. Their team's expertise and innovation shine through in every aspect of our digital experiences. From seamless navigation to visually stunning interfaces, they've elevated our brand to new heights. Their collaborative approach and attention to detail ensured that our vision was brought to life, resulting in designs that not only impress but also drive tangible results for our business. Highly recommend their UX and UI design service to anyone looking to make a lasting impact in the digital world!"
+          "Choosing Marketing Mastery Agency for our UX and UI design needs was one of the best decisions we've made for our brand. Their team's expertise and innovation shine through in every aspect of our digital experiences. From seamless navigation to visually stunning interfaces, they've elevated our brand to new heights. Their collaborative approach and attention to detail ensured that our vision was brought to life, resulting in designs that not only impress but also drive tangible results for our business. Highly recommend their UX and UI design service to anyone looking to make a lasting impact in the digital world!"
           </p>
         </blockquote>
 

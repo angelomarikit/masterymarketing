@@ -67,7 +67,7 @@ class KeywordResearch extends React.Component {
 
         <blockquote className="blockquote">
           <p>
-          "Mastering the market landscape has never been easier, thanks to Mastery Marketing Agency's exceptional market analysis services. Their insightful analysis helped us uncover hidden opportunities and refine our strategies for maximum impact. With their expert guidance, we've gained a deeper understanding of our target audience and competitors, leading to significant growth and success. Highly recommend their market analysis services to any business looking to thrive in today's competitive landscape."
+          "Mastering the market landscape has never been easier, thanks to Marketing Mastery Agency's exceptional market analysis services. Their insightful analysis helped us uncover hidden opportunities and refine our strategies for maximum impact. With their expert guidance, we've gained a deeper understanding of our target audience and competitors, leading to significant growth and success. Highly recommend their market analysis services to any business looking to thrive in today's competitive landscape."
           </p>
         </blockquote>
 

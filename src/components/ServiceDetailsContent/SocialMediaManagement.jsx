@@ -22,7 +22,7 @@ class SocialMediaManagement extends React.Component {
       <div className="services-details-desc">
         <h3>Social Media Management</h3>
         <p>
-        your brand's social presence with our Social Media Management Service at Mastery Marketing Agency. Our comprehensive solutions are tailored to boost your brand's visibility, engagement, and growth across major social platforms. From strategic planning and content creation to community management and performance analysis, our experienced team handles every aspect of your social media presence with precision and expertise. Let us guide you through the ever-changing landscape of social media, driving meaningful connections with your audience and achieving measurable results for your business. Choose Mastery Marketing Agency to enhance your brand's social presence.
+        your brand's social presence with our Social Media Management Service at Marketing Mastery Agency. Our comprehensive solutions are tailored to boost your brand's visibility, engagement, and growth across major social platforms. From strategic planning and content creation to community management and performance analysis, our experienced team handles every aspect of your social media presence with precision and expertise. Let us guide you through the ever-changing landscape of social media, driving meaningful connections with your audience and achieving measurable results for your business. Choose Marketing Mastery Agency to enhance your brand's social presence.
         </p>
 
         <OwlCarousel

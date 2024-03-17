@@ -71,7 +71,7 @@ class MarketingSolutions extends React.Component {
         <blockquote className="blockquote">
           <p>
           
-          "Choosing Mastery Marketing Agency for our marketing solutions was a game-changer for our brand. Their tailored strategies and expert guidance helped us navigate the digital landscape with confidence. The results speak for themselves - increased brand visibility, higher engagement, and measurable growth. Highly recommend their services to any business looking to thrive in today's competitive market."
+          "Choosing Marketing Mastery Agency for our marketing solutions was a game-changer for our brand. Their tailored strategies and expert guidance helped us navigate the digital landscape with confidence. The results speak for themselves - increased brand visibility, higher engagement, and measurable growth. Highly recommend their services to any business looking to thrive in today's competitive market."
           </p>
         </blockquote>
 
