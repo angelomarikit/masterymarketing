@@ -51,12 +51,12 @@ class Team extends React.Component {
                         {...options}
                     >
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamOne} alt="team" />
 
@@ -67,12 +67,12 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamTwo} alt="team" />
 
@@ -83,12 +83,12 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamThree} alt="team" />
 
@@ -99,12 +99,12 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamFour} alt="team" />
 
@@ -115,12 +115,12 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamFive} alt="team" />
 

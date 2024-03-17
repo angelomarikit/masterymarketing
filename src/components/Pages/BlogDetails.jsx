@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AltNavigation from '../Navigation/AltNavigation';
 import Footer from '../Common/Footer';
-import blogImg from '../../assets/images/blog-details.jpg';
+import blogImg from '../../assets/images/blog-details.PNG';
 import clientOne from '../../assets/images/client1.png';
 import clientTwo from '../../assets/images/client2.png';
 import clientThree from '../../assets/images/client3.png';
@@ -213,7 +213,7 @@ class BlogDetails extends React.Component {
                                         </form>
                                     </div>
                                     
-                                    <div className="widget widget_categories">
+                                    {/* <div className="widget widget_categories">
                                         <h3 className="widget-title">Categories</h3>
                                         <div className="bar"></div>
 
@@ -227,7 +227,7 @@ class BlogDetails extends React.Component {
                                             <li><Link to="#">IIS</Link></li>
                                             <li><Link to="#">JavaScript</Link></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                     
                                     <div className="widget widget_recent_entries">
                                         <h3 className="widget-title">Recent Posts</h3>
