@@ -61,7 +61,7 @@ class Footer extends React.Component {
                                                 <i className="flaticon-logo"></i>
                                             </a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank">
                                                 <i className="flaticon-twitter"></i>
                                             </a>
@@ -75,7 +75,7 @@ class Footer extends React.Component {
                                             <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank">
                                                 <i className="flaticon-logo-1"></i>
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
