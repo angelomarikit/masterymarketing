@@ -98,7 +98,7 @@ class Team extends React.Component {
                             </div>
                         </div>
 
-                        <div className="single-team">
+                        {/* <div className="single-team">
                             <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
@@ -128,7 +128,7 @@ class Team extends React.Component {
                                 <h3>Steve Eva</h3>
                                 <span>Creative Desinger</span>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* <div className="single-team">
                             <ul className="team-social">
