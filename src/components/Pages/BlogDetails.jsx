@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AltNavigation from '../Navigation/AltNavigation';
 import Footer from '../Common/Footer';
-import blogImg from '../../assets/images/blog-details.jpg';
+import blogImg from '../../assets/images/blog-details.PNG';
 import clientOne from '../../assets/images/client1.png';
 import clientTwo from '../../assets/images/client2.png';
 import clientThree from '../../assets/images/client3.png';
@@ -213,7 +213,7 @@ class BlogDetails extends React.Component {
                                         </form>
                                     </div>
                                     
-                                    <div className="widget widget_categories">
+                                    {/* <div className="widget widget_categories">
                                         <h3 className="widget-title">Categories</h3>
                                         <div className="bar"></div>
 
@@ -227,7 +227,7 @@ class BlogDetails extends React.Component {
                                             <li><Link to="#">IIS</Link></li>
                                             <li><Link to="#">JavaScript</Link></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                     
                                     <div className="widget widget_recent_entries">
                                         <h3 className="widget-title">Recent Posts</h3>
@@ -277,26 +277,26 @@ class BlogDetails extends React.Component {
                                         <div className="bar"></div>
 
                                         <div className="tagcloud">
-                                            <Link to="#">Error</Link>
-                                            <Link to="#">Cake Bake</Link>
-                                            <Link to="#">Dromzone</Link>
-                                            <Link to="#">File</Link>
+                                            <Link to="#">Social Media Management</Link>
+                                            <Link to="#">Digital Marketing</Link>
+                                            <Link to="#">Email Marketing</Link>
+                                            <Link to="#">SMM</Link>
+                                            <Link to="#">Graphics Design</Link>
+                                            <Link to="#">Web Development</Link>
+                                            <Link to="#">UX & UI</Link>
+                                            <Link to="#">Graphics</Link>
+                                            <Link to="#">Digital Agency</Link>
+                                            <Link to="#">Marketing Mastery</Link>
+                                            <Link to="#">Agency</Link>
+                                            {/* <Link to="#">File</Link>
                                             <Link to="#">Yii</Link>
                                             <Link to="#">Yii2</Link>
                                             <Link to="#">UUID</Link>
-                                            <Link to="#">Setup</Link>
-                                            <Link to="#">Error</Link>
-                                            <Link to="#">Cake Bake</Link>
-                                            <Link to="#">Dromzone</Link>
-                                            <Link to="#">File</Link>
-                                            <Link to="#">Yii</Link>
-                                            <Link to="#">Yii2</Link>
-                                            <Link to="#">UUID</Link>
-                                            <Link to="#">Setup</Link>
+                                            <Link to="#">Setup</Link> */}
                                         </div>
                                     </div>
                                     
-                                    <div className="widget widget_archive">
+                                    {/* <div className="widget widget_archive">
                                         <h3 className="widget-title">Archives</h3>
                                         <div className="bar"></div>
 
@@ -306,7 +306,7 @@ class BlogDetails extends React.Component {
                                             <li><Link to="#">February 2019</Link></li>
                                             <li><Link to="#">March 2019</Link></li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </article>

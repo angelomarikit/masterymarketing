@@ -27,7 +27,7 @@ class About extends React.Component {
                             <div className="about-content">
                                 <div className="uk-section-title section-title">
                                     <span>About Us</span>
-                                    <h2>Leading the way in Creative Digital Agency</h2>
+                                    <h2>Leading the way as a Creative Digital Agency</h2>
                                     <div className="bar"></div>
                                 </div>
 
@@ -35,9 +35,9 @@ class About extends React.Component {
                                     <div className="icon">
                                         <i className="flaticon-quality"></i>
                                     </div>
-                                    <h3>One of the Best Digital Marketing Agency in the World</h3>
-                                    <p>We provide marketing services to startups and small businesses to looking for a partner of their digital media, design & development, lead generation and communications requirents. We work with you, not for you. Although we have a great resources.</p>
-                                    <p>We are an experienced and talented team of passionate consultants who live and breathe search engine marketing.</p>
+                                    <h3>One of the Best Digital Marketing Agencies in the World</h3>
+                                    <p>We provide marketing services to startups and small businesses looking for a partner for their digital media, design & development, lead generation and communications requirements. We work with you, not for you. We are an experienced and talented team of passionate consultants who live and breathe marketing.</p>
+                                    
 
                                     <div className="signature">
                                         <img src={signature} alt="signature" />

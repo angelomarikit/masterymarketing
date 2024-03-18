@@ -20,7 +20,7 @@ class Footer extends React.Component {
                                         </Link>
                                     </div>
 
-                                    <p>Transform your brand journey with our dynamic marketing agency. Crafting compelling campaigns, maximizing online presence, and driving growth.</p>
+                                    <p>TTransform your brand journey with our dynamic marketing agency. Our expert team focuses on crafting compelling campaigns, maximizing your online presence, and driving growth for your business.</p>
                                 </div>
                             </div>
 
@@ -53,7 +53,7 @@ class Footer extends React.Component {
 
                                     <ul className="contact-info">
                                         <li><a href="mailto:mmastery.agency@gmail.com">mmastery.agency@gmail.com</a></li>
-                                        <li><a href="tel:+444785417452">+44 478 541 7452</a></li>
+                                        
                                     </ul>
                                     <ul className="social">
                                         <li>
@@ -61,7 +61,7 @@ class Footer extends React.Component {
                                                 <i className="flaticon-logo"></i>
                                             </a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank">
                                                 <i className="flaticon-twitter"></i>
                                             </a>
@@ -75,7 +75,7 @@ class Footer extends React.Component {
                                             <a href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank">
                                                 <i className="flaticon-logo-1"></i>
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>

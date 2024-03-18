@@ -21,9 +21,7 @@ class Banner extends React.Component {
                   Marketing Solutions for <br /> Success
                   </h1>
                   <p>
-                    We trust on innovation and that help us to succeed in
-                    future! Our team is innovative and interested to learn your
-                    project to offer the best solutions from out of the box!
+                    Our trusted, innovative team is dedicated to helping your project succeed while offering the best marketing solutions leveraging an Agile Marketing approach
                   </p>
                   <a href="#contact" className="uk-button uk-button-default">
                     Get Started

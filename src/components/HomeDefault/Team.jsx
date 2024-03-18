@@ -4,7 +4,7 @@ import OwlCarousel from 'react-owl-carousel3';
 import teamOne from '../../assets/images/team1.jpg';
 import teamTwo from '../../assets/images/team2.jpg';
 import teamThree from '../../assets/images/team3.jpg';
-import teamFour from '../../assets/images/team4.jpg';
+import teamFour from '../../assets/images/team4.PNG';
 import teamFive from '../../assets/images/team5.jpg';
 
 const options = {
@@ -51,12 +51,12 @@ class Team extends React.Component {
                         {...options}
                     >
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamOne} alt="team" />
 
@@ -67,12 +67,12 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamTwo} alt="team" />
 
@@ -83,12 +83,12 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamThree} alt="team" />
 
@@ -99,34 +99,34 @@ class Team extends React.Component {
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamFour} alt="team" />
 
                             <div className="team-content">
-                                <h3>Steven Smith</h3>
-                                <span>Marketing Manager</span>
+                                <h3>Angelo Marikit</h3>
+                                <span>Executive Assistant</span>
                             </div>
                         </div>
 
                         <div className="single-team">
-                            <ul className="team-social">
+                            {/* <ul className="team-social">
                                 <li><a href="#" target="_blank"><i className="flaticon-logo"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-twitter"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-linkedin"></i></a></li>
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
-                            </ul>
+                            </ul> */}
 
                             <img src={teamFive} alt="team" />
 
                             <div className="team-content">
-                                <h3>Steve Eva</h3>
-                                <span>Creative Desinger</span>
+                                <h3>John Philip Hernandez</h3>
+                                <span>Digital Sales</span>
                             </div>
                         </div>
 

@@ -70,7 +70,7 @@ class DigitalBranding extends React.Component {
         <blockquote className="blockquote">
           <p>
           
-"Mastery Marketing Agency's digital branding service is unmatched in its ability to elevate brands to new heights. Their expertise in crafting compelling brand narratives and visually captivating designs ensures that every aspect of your brand identity resonates with your audience. With their strategic approach and attention to detail, they go above and beyond to create authentic connections and leave a lasting impression. Highly recommend their digital branding service to any business looking to make a lasting impact in the digital world."
+"Marketing Mastery Agency's digital branding service is unmatched in its ability to elevate brands to new heights. Their expertise in crafting compelling brand narratives and visually captivating designs ensures that every aspect of your brand identity resonates with your audience. With their strategic approach and attention to detail, they go above and beyond to create authentic connections and leave a lasting impression. Highly recommend their digital branding service to any business looking to make a lasting impact in the digital world."
           </p>
         </blockquote>
 

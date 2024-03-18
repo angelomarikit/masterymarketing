@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel3';
 import ModalVideo from 'react-modal-video';
 
-import woman from '../../assets/images/women.jpg';
+import testimonials from '../../assets/images/testimonials.png';
 import shapeImg from '../../assets/images/1.png';
 
 const options = {
@@ -38,25 +38,25 @@ class Testimonials extends React.Component {
                     <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-2@m uk-child-width-1-1@s">
                         <div className="item">
                             <div className="feedback-img">
-                                <img src={woman} alt="Testimonials" />
+                                <img src={testimonials} alt="Testimonials" />
 
                                 <img src={shapeImg} className="shape-img" alt="Testimonials" />
 
-                                <Link 
+                                {/* <Link 
                                     onClick={e => {e.preventDefault(); this.openModal()}}
                                     to="#" 
                                     className="video-btn popup-youtube">
                                         <i className="flaticon-multimedia"></i> Watch Video
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
 
-                        <ModalVideo 
+                        {/* <ModalVideo 
                             channel='youtube' 
                             isOpen={this.state.isOpen} 
                             videoId='ldbXhDEc9y4' 
                             onClose={() => this.setState({isOpen: false})} 
-                        />
+                        /> */}
 
                         <div className="item">
                             <div className="feedback-inner">
