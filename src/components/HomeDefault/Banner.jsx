@@ -29,7 +29,7 @@ class Banner extends React.Component {
                     Get Started
                   </a>
 
-                  <Link
+                  {/* <Link
                     onClick={(e) => {
                       e.preventDefault();
                       this.openModal();
@@ -38,7 +38,7 @@ class Banner extends React.Component {
                     className="video-btn popup-youtube"
                   >
                     <span uk-icon="play"></span> Watch Video
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
