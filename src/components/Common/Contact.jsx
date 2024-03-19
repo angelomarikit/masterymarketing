@@ -55,7 +55,7 @@ class Contact extends React.Component {
   };
 
   onHideSuccess = () => {
-    this.setState({ submitted: true });
+    this.setState({ submitted: false });
   };
 
   successMessage = () => {
@@ -63,7 +63,7 @@ class Contact extends React.Component {
       return (
         <div className="alert-success" uk-alert-success>
           <Link
-            to="https://marketingmasteryagency.com/blog-details"
+            to="#"
             onClick={this.onHideSuccess}
             className="uk-alert-close"
             uk-close="true"
