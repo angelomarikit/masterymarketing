@@ -20,7 +20,7 @@ class Footer extends React.Component {
                                         </Link>
                                     </div>
 
-                                    <p>TTransform your brand journey with our dynamic marketing agency. Our expert team focuses on crafting compelling campaigns, maximizing your online presence, and driving growth for your business.</p>
+                                    <p>Transform your brand journey with our dynamic marketing agency. Our expert team focuses on crafting compelling campaigns, maximizing your online presence, and driving growth for your business.</p>
                                 </div>
                             </div>
 
@@ -30,7 +30,7 @@ class Footer extends React.Component {
                                     <div className="bar"></div>
 
                                     <div className="location">
-                                        <p>198 Collective Street <br /> Manhattan <br /> Kingston <br /> United State</p>
+                                        <p>198 Collective Street <br /> Manhattan <br /> Kingston <br /> United States</p>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ class Footer extends React.Component {
                         <div className="copyright-area">
                             <div className="uk-grid uk-grid-match uk-grid-medium uk-child-width-1-2@m uk-child-width-1-2@s">
                                 <div className="item">
-                                    <p>© MMA. All Rights Reserved</p>
+                                    <p>© MMA All Rights Reserved.</p>
                                 </div>
 
                                 <div className="item">

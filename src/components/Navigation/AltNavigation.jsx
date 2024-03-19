@@ -36,8 +36,8 @@ class AltNavigation extends React.Component {
                                 </li>
                                 <li><Link to="/testimonials">Testimonials</Link></li>
                                 <li><Link to="/team">Team</Link></li>
-                                <li><Link to="/blog-details">Blog</Link>
-                                </li>
+                                {/* <li><Link to="/blog-details">Blog</Link>
+                                </li> */}
                                 <li><Link to="/contact">Contact</Link></li>
                             </ul>
                         </nav>
@@ -86,10 +86,10 @@ class AltNavigation extends React.Component {
                                         <li className={pathName === '/team' ? 'uk-active' : ''}>
                                             <Link to="/team">Team</Link>
                                         </li>
-                                        <li className={pathName === '/blog' || pathName === '/blog-details' ? 'uk-active' : ''}>
+                                        {/* <li className={pathName === '/blog' || pathName === '/blog-details' ? 'uk-active' : ''}>
                                             <Link to="/blog-details">Blog</Link>
                                             
-                                        </li>
+                                        </li> */}
                                         <li className={pathName === '/contact' ? 'uk-active' : ''}>
                                             <Link to="/contact">Contact</Link>
                                         </li>
