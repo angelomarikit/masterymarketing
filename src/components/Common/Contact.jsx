@@ -182,11 +182,11 @@ class Contact extends React.Component {
                     />
                   </div>
 
-                  <button onClick = {this.successMessage()} type="submit" className="uk-button uk-button-default">
+                  <button type="submit" className="uk-button uk-button-default">
                     Submit Message
                   </button>
                 </form>
-
+                {this.successMessage()}
               </div>
             </div>
           </div>
