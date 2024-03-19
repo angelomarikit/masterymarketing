@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 import "isomorphic-fetch";
 import mapImg from "../../assets/images/map2.png";
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+
+
 
 class Contact extends React.Component {
   state = {
@@ -20,8 +23,20 @@ class Contact extends React.Component {
   };
 
   onSubmit = (e) => {
+    let me = this
     e.preventDefault();
-    emailjs.sendForm('service_lb0xxdb', 'template_3nf9wn3', e.target, '-ReblTzuj1DI3oIxL');
+    emailjs.sendForm('service_lb0xxdb', 'template_3nf9wn3', e.target, '-ReblTzuj1DI3oIxL').then(
+      function (response) {
+        me.setState({submitted : true})
+        me.successMessage()
+        console.log('SUCCESS!', response.status, response.text);
+      },
+      function (err) {
+        console.log('FAILED...', err);
+        me.failedMessage()
+      },
+    );
+    
   };
 
   nameChangeHandler = (e) => {
@@ -57,21 +72,29 @@ class Contact extends React.Component {
   onHideSuccess = () => {
     this.setState({ submitted: false });
   };
-
+  failedMessage = () => {
+    const notify = () => toast.error("Something Went Wrong");
+    notify()
+  }
   successMessage = () => {
+    const notify = () => toast.success("We will contact you soon!");
     if (this.state.submitted) {
-      return (
-        <div className="alert-success" uk-alert-success>
-          <Link
-            to="#"
-            onClick={this.onHideSuccess}
-            className="uk-alert-close"
-            uk-close="true"
-          ></Link>
-          <h3>Thank you</h3>
-          <p>We will connect you soon.</p>
-        </div>
-      );
+        notify()
+        // return (
+        //   <div>
+          
+        //   </div>
+        // <div className="alert-success" uk-alert-success>
+        //   <Link
+        //     to="#"
+        //     onClick={this.onHideSuccess}
+        //     className="uk-alert-close"
+        //     uk-close="true"
+        //   ></Link>
+        //   <h3>Thank you</h3>
+        //   <p>We will connect you soon.</p>
+        // </div>
+      // );
     }
   };
 
@@ -182,11 +205,12 @@ class Contact extends React.Component {
                     />
                   </div>
 
-                  <button type="submit" className="uk-button uk-button-default">
+                  <button  type="submit" className="uk-button uk-button-default">
                     Submit Message
                   </button>
+                  <ToastContainer />
                 </form>
-                {this.successMessage()}
+                {/* {this.state.submitted && this.successMessage()} */}
               </div>
             </div>
           </div>
