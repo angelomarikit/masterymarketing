@@ -3,6 +3,7 @@
   "version": "1.7.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "http-proxy-middleware": "^0.19.2",
     "isomorphic-fetch": "^3.0.0",
     "lax.js": "^1.2.5",
@@ -14,8 +15,8 @@
     "react-owl-carousel3": "^2.2.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
+    "react-toastify": "^9.0.3",
     "sass": "^1.52.1",
-    "@emailjs/browser": "^4.3.3",
     "uikit": "^3.7.2"
   },
   "engines": {
