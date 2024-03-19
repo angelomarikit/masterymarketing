@@ -62,7 +62,7 @@ class TeamBody extends React.Component {
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
                             </ul> */}
 
-                            <img src={require("../../assets/images/team4.PNG")} alt="team" />
+                            <img src={require("../../assets/images/team10.png")} alt="team" />
 
                             <div className="team-content">
                                 <h3>Angelo Marikit</h3>
@@ -78,7 +78,7 @@ class TeamBody extends React.Component {
                                 <li><a href="#" target="_blank"><i className="flaticon-logo-1"></i></a></li>
                             </ul> */}
 
-                            <img src={require("../../assets/images/team5.jpg")} alt="team" />
+                            <img src={require("../../assets/images/team11.png")} alt="team" />
 
                             <div className="team-content">
                                 <h3>John Philip Hernandez</h3>

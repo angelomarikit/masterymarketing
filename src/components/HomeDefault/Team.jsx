@@ -4,8 +4,8 @@ import OwlCarousel from 'react-owl-carousel3';
 import teamOne from '../../assets/images/team1.jpg';
 import teamTwo from '../../assets/images/team2.jpg';
 import teamThree from '../../assets/images/team3.jpg';
-import teamFour from '../../assets/images/team4.PNG';
-import teamFive from '../../assets/images/team5.jpg';
+import teamFour from '../../assets/images/team10.png';
+import teamFive from '../../assets/images/team11.png';
 
 const options = {
     loop: true,
