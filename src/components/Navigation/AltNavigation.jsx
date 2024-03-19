@@ -32,7 +32,7 @@ class AltNavigation extends React.Component {
                                 </li>
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/service-details">Services</Link></li>
-                                <li><Link to="/project-details">Project</Link>
+                                <li><Link to="/project-details">Projects</Link>
                                 </li>
                                 <li><Link to="/testimonials">Testimonials</Link></li>
                                 <li><Link to="/team">Team</Link></li>
