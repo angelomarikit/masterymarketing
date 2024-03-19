@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 import "isomorphic-fetch";
 import mapImg from "../../assets/images/map2.png";
 import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const notify = () => {
-  toast('Thank you we will reply to you soon!');
-}
 class Contact extends React.Component {
   state = {
     submitting: false,
@@ -186,12 +182,11 @@ class Contact extends React.Component {
                     />
                   </div>
 
-                  <button onClick={notify} type="submit" className="uk-button uk-button-default">
+                  <button type="submit" className="uk-button uk-button-default">
                     Submit Message
                   </button>
-                  <ToastContainer/>
+                  {this.successMessage()}
                 </form>
-                {this.successMessage()}
               </div>
             </div>
           </div>
