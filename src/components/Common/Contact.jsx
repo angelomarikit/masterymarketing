@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 class Contact extends React.Component {
   state = {
     submitting: false,
-    submitted: true,
+    submitted: false,
     buttonState: "",
     formFields: {
       name: "",
@@ -55,7 +55,7 @@ class Contact extends React.Component {
   };
 
   onHideSuccess = () => {
-    this.setState({ submitted: false });
+    this.setState({ submitted: true });
   };
 
   successMessage = () => {
@@ -63,7 +63,7 @@ class Contact extends React.Component {
       return (
         <div className="alert-success" uk-alert-success>
           <Link
-            to="#"
+            to="https://marketingmasteryagency.com/blog-details"
             onClick={this.onHideSuccess}
             className="uk-alert-close"
             uk-close="true"
@@ -185,8 +185,8 @@ class Contact extends React.Component {
                   <button type="submit" className="uk-button uk-button-default">
                     Submit Message
                   </button>
-                  {this.successMessage()}
                 </form>
+                {this.successMessage()}
               </div>
             </div>
           </div>
