@@ -77,7 +77,7 @@ class AltNavigation extends React.Component {
                                            
                                         </li>
                                         <li className={pathName === '/projects' || pathName === '/project-details' ? 'uk-active' : ''}>
-                                            <Link to="/project-details">Project</Link>
+                                            <Link to="/project-details">Projects</Link>
                                             
                                         </li>
                                         <li className={pathName === '/testimonials' ? 'uk-active' : ''}>

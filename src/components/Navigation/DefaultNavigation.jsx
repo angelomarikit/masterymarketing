@@ -132,7 +132,7 @@ class Navigation extends React.Component {
                                                 href="#project"
                                                 offset={() => 100}
                                             >
-                                                Project
+                                                Projects
                                             </AnchorLink>
                                         </li>
                                         <li>
