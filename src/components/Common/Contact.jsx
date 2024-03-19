@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 class Contact extends React.Component {
   state = {
     submitting: false,
-    submitted: false,
+    submitted: true,
     buttonState: "",
     formFields: {
       name: "",
