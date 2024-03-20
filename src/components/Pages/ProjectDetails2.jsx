@@ -128,7 +128,7 @@ class ProjectDetails extends React.Component {
                 your social media game, boost brand awareness, and drive
                 meaningful interactions. Let us handle the digital front while
                 you focus on what you do best. Elevate your social media
-                presence with us today
+                presence with us today.
               </p>
             </div>
 

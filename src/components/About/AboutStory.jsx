@@ -17,7 +17,8 @@ class AboutContent extends React.Component {
                                 <div className="about-text">
                                     
                                     <h3>Marketing Mastery Agency</h3>
-                                    <p>At the intersection of innovation and success lies our dynamic team, led by Maria Matarelli and Darby Beenken, visionaries in the realm of digital marketing. Maria, a seasoned entrepreneur and bestselling author, alongside her Agile Marketing Academy co-founder, has spearheaded transformative ventures for Fortune 100 companies. Their agile methodologies have propelled startups to staggering valuations and streamlined operations for billion-dollar organizations, unlocking unprecedented growth.
+                                    <p>At the intersection of innovation and success lies our dynamic team, led by Maria Matarelli and Darby Beenken, visionaries in the realm of digital marketing. Maria, a seasoned entrepreneur and bestselling author, alongside her Agile Marketing Academy co-founder, has spearheaded transformative ventures for Fortune 100 companies. 
+                                    <p>Their agile methodologies have propelled startups to staggering valuations and streamlined operations for billion-dollar organizations, unlocking unprecedented growth.</p>
 
                                     <p>Complementing Maria's expertise, Darby Beenken's entrepreneurial journey boasts numerous multimillion-dollar ventures and the creation of automated systems for hundreds of employees. From Dubai to Bali, Darby's ventures have redefined the landscape of digital entrepreneurship, turning concepts into thriving realities with unparalleled efficiency.</p>
 

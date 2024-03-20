@@ -35,8 +35,8 @@ class About extends React.Component {
                                     <div className="icon">
                                         <i className="flaticon-quality"></i>
                                     </div>
-                                    <h3>One of the Best Digital Marketing Agencies in the World</h3>
-                                    <p>We provide marketing services to startups and small businesses looking for a partner for their digital media, design & development, lead generation and communications requirements. We work with you, not for you. We are an experienced and talented team of passionate consultants who live and breathe marketing.</p>
+                                    <h3>One of the World’s Leading Digital Marketing Agencies</h3>
+                                    <p>We provide marketing services to startups and small businesses looking for a partner for their digital media, design & development, lead generation and communications requirements. We are an experienced and talented team of passionate consultants who live and breathe marketing.</p>
                                     
 
                                     <div className="signature">

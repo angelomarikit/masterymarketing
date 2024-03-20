@@ -61,7 +61,7 @@ class Testimonials extends React.Component {
                         <div className="item">
                             <div className="feedback-inner">
                                 <div className="uk-section-title section-title">
-                                    <span>What Client Says About US</span>
+                                    <span>What clients say about us</span>
                                     <h2>Our Testimonials</h2>
                                     <div className="bar"></div>
                                 </div>

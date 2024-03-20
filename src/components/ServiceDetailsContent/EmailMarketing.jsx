@@ -71,7 +71,7 @@ class EmailMarketing extends React.Component {
 
         <blockquote className="blockquote">
           <p>
-          Since partnering with Marketing Mastery Agency for our email marketing needs, we've experienced unparalleled results. Their strategic approach, coupled with their attention to detail, has significantly boosted our open rates and conversions. With their team's expertise, we've unlocked new avenues for engaging with our audience and driving business growth. Highly recommend their services!
+          "Since partnering with Marketing Mastery Agency for our email marketing needs, we've experienced unparalleled results. Their strategic approach, coupled with their attention to detail, has significantly boosted our open rates and conversions. With their team's expertise, we've unlocked new avenues for engaging with our audience and driving business growth. Highly recommend their services!" - Skytrax Superclub
           </p>
         </blockquote>
 

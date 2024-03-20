@@ -110,8 +110,8 @@ class ServiceDetails extends React.Component {
                                         <div className="bar"></div>
                                         
                                         <ul>
-                                            <li><a href='https://drive.google.com/uc?export=download&id=1Jvh6ClsH2MgJdQYl9ncJ8qGS5qbv6v88'>Portfolio Pdf <i className="flaticon-edit"></i></a></li>
-                                            <li><a href='https://drive.google.com/file/d/1RwY7qlEZjIFjFUeSk6wjVt8aQFit-bl7/view?usp=drive_link'>Company Profile Pdf <i className="flaticon-edit"></i></a></li>
+                                            <li><a href='https://drive.google.com/uc?export=download&id=1Jvh6ClsH2MgJdQYl9ncJ8qGS5qbv6v88' target="_blank" rel="noopener noreferrer">Portfolio PDF <i className="flaticon-edit"></i></a></li>
+                                            <li><a href='https://drive.google.com/file/d/1RwY7qlEZjIFjFUeSk6wjVt8aQFit-bl7/view?usp=drive_link' target="_blank" rel="noopener noreferrer">Company Profile PDF <i className="flaticon-edit"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
