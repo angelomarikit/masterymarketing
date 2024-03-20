@@ -4,6 +4,7 @@ import OwlCarousel from 'react-owl-carousel3';
 import blogOne from '../../assets/images/blog1.jpg';
 import blogTwo from '../../assets/images/blog2.jpg';
 import blogThree from '../../assets/images/blog3.jpg';
+import blogFour from '../../assets/images/blog4.png';
 
 const options = {
     loop: true,
@@ -40,7 +41,7 @@ class LatestNews extends React.Component {
                             <h2>Latest News</h2>
                             <div className="bar"></div>
 
-                            <Link to="/blog" className="uk-button uk-button-default">View All</Link>
+                            {/* <Link to="/blog" className="uk-button uk-button-default">View All</Link> */}
                         </div>
 
                         <OwlCarousel 
@@ -50,7 +51,7 @@ class LatestNews extends React.Component {
                             <div className="single-blog-post">
                                 <div className="blog-post-image">
                                     <Link to="/blog-details">
-                                        <img src={blogOne} alt="news" />
+                                        <img src={blogFour} alt="news" />
                                     </Link>
                                 </div>
 
